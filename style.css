@@ -1,0 +1,86 @@
+@font-face{
+	font-family: satauri;
+	src: url(fontebi/ROMANTIC.TTF);
+}
+@font-face {
+	font-family: qvesataui;
+	src: url(fontebi/Acidic.TTF);
+}
+@font-face {
+	font-family: qvesatauri;
+	src: url(fontebi/alkdots-webfont.ttf);
+}
+
+.baneri {
+	background-color: rgb(112, 149, 182);
+	padding: 300px;
+	position: relative;
+    width: 100%;
+	background-image: url(images/baneri.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	color: rgb(117, 194, 175);
+}
+
+.satauri {
+	position: absolute;
+	width: 40%;
+	padding: 20px;
+	background-color: rgba(95, 95, 124, 0.5);
+	top: 90px;
+	left: 20%;
+	text-align: center;
+	font-size: 100px;
+	font-family: satauri;
+}
+.qvesatauri {
+	position: absolute;
+	bottom: 30px;
+	left: 20%;
+	width: 40%;
+	padding: 20px;
+	background-color: rgba(115, 161, 41, 0.5);
+	font-size: 60px;
+	text-align: center;
+	font-family: qvesatauri;
+
+}
+form {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
+  
+  label {display: block;}
+  
+  input[type=text],input[type=email],input[type=password] select {
+	width: 100%;
+	padding: 12px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  .reg{
+	width: 40%;
+	margin: auto;
+  }
+
+  
+  
